@@ -10,7 +10,7 @@ export default function App() {
         <Dictionary />
       </main>
       <footer>
-      Coded by <a href="https://github.com/Gabriela85/dictionary-react" target="_blank"> Gabriela Resslova </a>
+      Coded by <a href="https://github.com/Gabriela85/dictionary-react" target="_blank" rel="noreferrer"> Gabriela Resslova </a>
    </footer>
    </div>
    </div>
