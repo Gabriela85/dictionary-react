@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Dictionary from './Dictionary';
 
@@ -7,6 +8,8 @@ export default function App() {
     <div className="container">
 
       <main>
+      <h1>DICTIONARY</h1>
+  <h2>As long as we keep searching, <br />the answers come</h2>
         <Dictionary />
       </main>
       <footer>

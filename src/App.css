@@ -1,4 +1,38 @@
-footer {
-  font-family: monospace∫;
+.container{
+  width: 30%;
+  background-color: #b1f7f3;
+  background: linear-gradient(56deg,#b1f7f3 3%, #98dbf7 50%);
+  background: -webkit-linear-gradient(56deg,#b1f7f3 3%, #98dbf7 50%);
+  background: -moz-linear-gradient(56deg,#b1f7f3 3%, #98dbf7 50%);
+  border-radius: 10px;
+  padding: 5rem;
+  margin:5rem;
+  box-shadow: 14px 12px 10px -1px rgba(46,99,100,0.7);
+  -webkit-box-shadow: 14px 12px 10px -1px rgba(46,99,100,0.7);
+  -moz-box-shadow: 14px 12px 10px -1px rgba(46,99,100,0.7);
+}
+h1{
+padding: 2rem;
+text-align: center;
+color: rgb(83, 87, 87);
+}
+h2{
+  color: rgb(130, 136, 138);
   text-align: center;
+
+
+}
+footer {
+  padding-top: 10rem;
+  color: rgb(83, 87, 87);
+  font-family: monospace;
+  font-size: small;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+}
+footer a:hover{
+ text-decoration: underline;
+
 }
