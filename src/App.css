@@ -1,9 +1,9 @@
 .container{
-  width: 30%;
-  background-color: #b1f7f3;
-  background: linear-gradient(56deg,#b1f7f3 3%, #98dbf7 50%);
-  background: -webkit-linear-gradient(56deg,#b1f7f3 3%, #98dbf7 50%);
-  background: -moz-linear-gradient(56deg,#b1f7f3 3%, #98dbf7 50%);
+  color: #FFFFFF;
+  width: 70%;
+  background: linear-gradient(56deg,#50005b 3%, #1B001F 50%);
+  background: -webkit-linear-gradient(56deg,#50005b 3%, #1B001F 50%);
+  background: -moz-linear-gradient(56deg,#50005b 3%, #1B001F 50%);
   border-radius: 10px;
   padding: 5rem;
   margin:5rem;
@@ -11,23 +11,29 @@
   -webkit-box-shadow: 14px 12px 10px -1px rgba(46,99,100,0.7);
   -moz-box-shadow: 14px 12px 10px -1px rgba(46,99,100,0.7);
 }
+
+
 h1{
-padding: 2rem;
+  font-size: 4rem;
+padding: 0rem 2rem 2rem 2rem;
 text-align: center;
-color: rgb(83, 87, 87);
+color: #FFFFFF;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
 }
 h2{
-  color: rgb(130, 136, 138);
-  text-align: center;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;  text-align: center;
 
 
 }
 footer {
   padding-top: 10rem;
-  color: rgb(83, 87, 87);
   font-family: monospace;
   font-size: small;
   text-align: center;
+  color: #FFFFFF;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 footer a{
   text-decoration: none;
@@ -36,3 +42,13 @@ footer a:hover{
  text-decoration: underline;
 
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+      width: 50%
+    }
+    h1{
+      font-size: 3rem;
+      padding: 1rem;
+   }
+  }

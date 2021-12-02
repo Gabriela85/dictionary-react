@@ -9,7 +9,6 @@ export default function App() {
 
       <main>
       <h1>DICTIONARY</h1>
-  <h2>As long as we keep searching, <br />the answers come</h2>
         <Dictionary />
       </main>
       <footer>
